@@ -35,15 +35,15 @@ This repository hosts a custom-built compiler designed to parse and interpret a 
 
 ### Compilation
 
-Change the permissions to make the file executable:
-```bash
-chmod +x compile.sh
-```
+1. Change the permissions to make the file executable:
+   ```bash
+   chmod +x compile.sh
+   ```
 
-Compile the project:
-```bash
-./compiler.sh customLang
-```
+2. Compile the project:
+   ```bash
+   ./compiler.sh customLang
+   ```
 
 This script cleans previous builds, processes the grammar file with Bison and Lex, and compiles the source into an executable named `compiler`.
 
