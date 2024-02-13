@@ -1,0 +1,17 @@
+Variables:
+Type: int, Name: var1, Value: 2, Defined in: global
+Type: float, Name: var2, Value: 10.500000, Defined in: global
+Type: bool, Name: var3, Value: 0, Defined in: global
+Type: int, Name: constVar1, Value: 100, Defined in: global
+Type: float, Name: constVar2, Value: 3.14, Defined in: global
+Type: char, Name: constVar3, Value: 'a', Defined in: global
+Type: string, Name: constVar4, Value: "Hello", Defined in: global
+Type: bool, Name: constVar5, Value: true, Defined in: global
+Type: int, Name: localVar, Value: 10, Defined in: myFunction2
+Type: int, Name: classVar, Value: 5, Defined in: MyClass
+Type: int, Name: i, Value: 2, Defined in: for local
+
+Functions:
+Name: myFunction1, Return Type: void, Defined in: global, Parameters: 
+Name: myFunction2, Return Type: int, Defined in: global, Parameters: param1 param2 
+Name: classFunction, Return Type: void, Defined in: MyClass, Parameters: param 

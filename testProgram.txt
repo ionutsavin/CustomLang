@@ -1,0 +1,44 @@
+int var1 = 5 + 5 / 5 - 3;
+float var2 = 5.5 + 6.5 - 1.5;
+bool var3 = true;
+
+const int constVar1 = 100;
+const float constVar2 = 3.14;
+const char constVar3 = 'a';
+const string constVar4 = "Hello";
+const bool constVar5 = true;
+
+int myArray[100];
+float myFloatArray[200];
+
+while (var3 == true) {
+    var3 = false;
+}
+
+if (true) {
+    var1 = var1 - 1;
+}
+
+void myFunction1() {
+}
+
+int myFunction2(int param1, float param2) {
+    int localVar = 5;
+    localVar = localVar + 5;
+    return localVar;
+}
+myFunction2(var1, var2);
+
+class MyClass {
+    int classVar = 2;
+    void classFunction(int param) {
+        classVar = 5;
+    }
+}
+
+for (int i = 0; i < 2; i = i + 1; ){
+    i = i + 1;
+}
+
+var4 = var4 + 5;
+int var4 = 5 + 6.0;
